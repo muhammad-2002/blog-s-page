@@ -41,6 +41,12 @@ const Header = () => {
         >
           {theme ? <FaMoon></FaMoon> : <FaSun></FaSun>}
         </Button>
+        <Link to={"/sign-in"}>
+          <Button gradientDuoTone="purpleToBlue" outline>
+            Sing In
+          </Button>
+        </Link>
+        <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
         <Navbar.Link active={path === "/"} as={"div"}>
