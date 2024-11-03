@@ -1,6 +1,7 @@
 {
   "name": "blog-side",
   "version": "1.0.0",
+  "type": "module",
   "description": "\"# blog-s-page\"",
   "main": "index.js",
   "scripts": {
